@@ -1,0 +1,16 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.vue",
+  ],
+  theme: {
+    extend: {
+      backgroundImage:{
+        'bg_Image': "url('./pattern-background-desktop.svg')"
+      }
+    },
+  },
+  plugins: [],
+}
+
